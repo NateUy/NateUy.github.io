@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   accordions.forEach((accordion) => {
     accordion.addEventListener("toggle", () => {
+      let lastAccordion = accordion;
+
       if (accordion.open) {
         accordions.forEach((otherAccordion) => {
           if (otherAccordion !== accordion) {
@@ -26,6 +28,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       setTimeout(() => {
         AOS.refresh();
+        lastAccordion.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
       }, 100);
     });
   });
