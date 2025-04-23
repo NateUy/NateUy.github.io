@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nathan Uy</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-white overflow-x-hidden">
+    <header class="fixed top-0 w-full bg-black z-50">
+      <div class="flex justify-between items-center p-6 m-1">
+        <div class="text-xl font-bold sm:block hidden">Nathan Uy</div>
+
+        <button id="menu-btn" class="md:hidden text-3xl focus:outline-none">
+          &#9776;
+        </button>
+
+        <nav id="menu" class="hidden md:flex space-x-6 text-gray-300 text-lg">
+          <a href="#about" class="hover:underline cursor-pointer">About</a>
+          <a href="#experience" class="hover:underline cursor-pointer"
+            >Experience</a
+          >
+          <a href="#projects" class="hover:underline cursor-pointer"
+            >Projects</a
+          >
+          <a href="#academics" class="hover:underline cursor-pointer"
+            >Academics</a
+          >
+          <a href="#awards" class="hover:underline cursor-pointer">Awards</a>
+          <a href="#interests" class="hover:underline cursor-pointer"
+            >Interests</a
+          >
+        </nav>
+
+        <nav
+          id="mobile-menu"
+          class="fixed inset-0 bg-black z-50 hidden flex flex-col items-center justify-center space-y-8 text-xl font-semibold text-gray-300"
+        >
+          <a href="#about" class="hover:underline cursor-pointer menu-link"
+            >About</a
+          >
+          <a href="#experience" class="hover:underline cursor-pointer"
+            >Experience</a
+          >
+          <a href="#projects" class="hover:underline cursor-pointer menu-link"
+            >Projects</a
+          >
+          <a href="#academics" class="hover:underline cursor-pointer menu-link"
+            >Academics</a
+          >
+          <a href="#awards" class="hover:underline cursor-pointer menu-link"
+            >Awards</a
+          >
+          <a href="#interests" class="hover:underline cursor-pointer menu-link"
+            >Interests</a
+          >
+        </nav>
+      </div>
+      <div
+        class="h-0.5 w-full bg-gradient-to-r from-white via-black to-white sm:block hidden"
+      ></div>
+    </header>
+    <main class="items-center px-10 max-w-7xl mx-auto">
+      <section
+        id="about"
+        class="min-h-screen flex flex-col md:flex-row items-center justify-center bg-black text-white py-20"
+        data-aos="fade-up"
+      >
+        <div
+          class="md:w-1/2 space-y-6 md:border-l-4 md:pl-6 text-center md:text-left"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
+          <h1 class="text-6xl md:text-6xl font-extrabold">
+            Rod Isaac Nathan Uy
+          </h1>
+          <h2 class="text-xl md:text-2xl text-gray-200">Software Engineer</h2>
+          <p class="text-gray-400">
+            I'm a passionate and motivated recent Software Engineering and
+            Management CO-OP graduate from McMaster University.
+          </p>
+          <a
+            href="media/Resume_Nathan_Uy.pdf"
+            class="inline-block bg-red-600 px-6 py-2 text-white rounded hover:bg-red-700 transition"
+          >
+            Download Resume
+          </a>
+          <div class="mt-2 space-x-4 text-gray-400 text-2xl">
+            <a
+              href="https://www.linkedin.com/in/nathan-uy-174812196"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/NateUy/" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <div
+          class="md:w-1/2 flex justify-center mt-6 md:mt-0"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+        >
+          <img
+            src="media/profile.jpg"
+            alt="Profile"
+            class="rounded-full w-80 h-80 object-cover shadow-lg"
+          />
+        </div>
+      </section>
+      <section
+        id="experience"
+        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 py-20"
+      >
+        <h2 class="text-2xl text-white font-bold mb-8 text-center">
+          Work Experience
+        </h2>
+
+        <div class="grid gap-6 max-w-3xl w-full">
+          <div
+            class="bg-gray-900 border border-gray-500 rounded-2xl p-6 shadow-lg"
+            data-aos="fade"
+            data-aos-duration="2000"
+          >
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-xl font-semibold">Software Developer Intern</h3>
+              <span class="text-sm text-gray-200">May 2023 – Aug 2024</span>
+            </div>
+            <p class="text-gray-200 mb-1">
+              <strong>Navblue, an Airbus Company</strong>
+            </p>
+            <ul class="list-disc list-inside space-y-1 text-gray-200">
+              <li>
+                Researched and implemented database optimizations, resulting in
+                a 90% reduction in query execution time and resolving AWS Lambda
+                timeouts.
+              </li>
+              <li>
+                Researched and developed a proof of concept for restructuring a
+                product’s architecture, enhancing testability, reducing service
+                coupling, and aligning with microservices principles.
+              </li>
+              <li>
+                Contributed to transitioning a product from a shared database to
+                a multitenancy architecture, improving data segregation and
+                security.
+              </li>
+              <li>
+                Developed a pipeline to monitor AWS resource usage and create
+                real-time dashboards with usage trends to track resource
+                utilization patterns and identify cost-saving opportunities and
+                optimize resource allocation.
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="bg-gray-900 border border-gray-500 rounded-2xl p-6 shadow-lg"
+            data-aos="fade"
+            data-aos-duration="2000"
+          >
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-xl font-semibold">Teaching Assistant</h3>
+              <span class="text-sm text-gray-200"
+                >Sep 2021 – Apr 2022, Sep 2024 - Apr 2025</span
+              >
+            </div>
+            <p class="text-gray-200 mb-1">
+              <strong>McMaster University</strong>
+            </p>
+            <ul class="list-disc list-inside space-y-1 text-gray-200">
+              <li>
+                Effectively collaborated with instructors to refine teaching
+                methods and course content to foster better student learning and
+                engagement.
+              </li>
+              <li>
+                Fostered a dynamic learning environment by asking targeted
+                questions that promoted critical thinking and helped students
+                improve their problem-solving abilities and understanding
+                programming principles.
+              </li>
+              <li>
+                Provided constructive feedback on course deliverables by using
+                effective communication to help students develop best practices
+                in coding and design.
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="bg-gray-900 border border-gray-500 rounded-2xl p-6 shadow-lg"
+            data-aos="fade"
+            data-aos-duration="2000"
+          >
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-xl font-semibold">General Member</h3>
+              <span class="text-sm text-gray-200">Apr 2021 – Dec 2022</span>
+            </div>
+            <p class="text-gray-200 mb-1"><strong>MacOutreach</strong></p>
+            <ul class="list-disc list-inside space-y-1 text-gray-200">
+              <li>
+                Volunteered as part of a student-led initiative to promote early
+                computer science education.
+              </li>
+              <li>
+                Taught basic programming concepts to elementary students using
+                Elm in interactive workshops.
+              </li>
+              <li>
+                Facilitated hands-on coding sessions introducing functional
+                programming in a fun, approachable way.
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="bg-gray-900 border border-gray-500 rounded-2xl p-6 shadow-lg"
+            data-aos="fade"
+            data-aos-duration="2000"
+          >
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-xl font-semibold">
+                Warehouse Associate (Part-time)
+              </h3>
+              <span class="text-sm text-gray-200">July 2017 – Apr 2023</span>
+            </div>
+            <p class="text-gray-200 mb-1">
+              <strong>LPG Inventory Solutions</strong>
+            </p>
+            <ul class="list-disc list-inside space-y-1 text-gray-200">
+              <li>
+                Developed a systematic routine that helps categorize customer
+                orders based on their priority resulting in the efficient
+                execution of the work process.
+              </li>
+              <li>
+                Showcased enhanced communication by providing well-detailed
+                reports to warehouse supervisors and co-workers that helped
+                contribute to a cohesive work environment.
+              </li>
+              <li>
+                Successfully managed customer returns and proactively verified
+                customer orders/invoices.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section
+        id="projects"
+        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 py-20"
+      >
+        <h2 class="text-2xl text-white font-bold mb-8 text-center">Projects</h2>
+
+        <div class="space-y-16">
+          <div class="flex flex-col md:flex-row items-center gap-8">
+            <img
+              src="media/SOCAlgoTestPlatform.png"
+              alt="Project screenshot"
+              class="w-full md:w-1/2 rounded-lg shadow-lg max-h-72 object-cover"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            />
+
+            <div class="w-full md:w-1/2">
+              <h3 class="text-2xl font-semibold mb-2">
+                Battery SOC Algorithm Test Platform
+              </h3>
+              <p class="text-gray-300 mb-4">
+                A web-based platform designed to test and compare battery State
+                of Charge (SoC) algorithms. Supports parallel submissions and
+                provides an intuitive user interface for uploading models,
+                viewing results, and tracking performance. Features include a
+                dynamic leaderboard for comparison, graphical result summaries,
+                and efficient test management for researchers and students.
+              </p>
+
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Django</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Python</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >MATLAB</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >PostgreSQL</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Docker</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Celery</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+            <img
+              src="media/MathWhiz.png"
+              alt="Project screenshot"
+              class="w-full md:w-1/2 rounded-lg shadow-lg max-h-72 object-cover"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            />
+
+            <div class="w-full md:w-1/2">
+              <h3 class="text-2xl font-semibold mb-2">Math Whiz</h3>
+              <p class="text-gray-300 mb-4">
+                A single-player math game where the player must answer questions
+                involving the four basic mathematical operations to defeat the
+                enemy. Built using a component-based architecture to ensure
+                modularity and scalability in game design. Designed with a focus
+                on educational engagement and progressive difficulty.
+              </p>
+
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Django</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >MATLAB</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Docker</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col md:flex-row items-center gap-8">
+            <img
+              src="media/EarningsOrganizer.png"
+              alt="Project screenshot"
+              class="w-full md:w-1/2 rounded-lg shadow-lg max-h-72 object-cover"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            />
+
+            <div class="w-full md:w-1/2">
+              <h3 class="text-2xl font-semibold mb-2">Earnings Organizer</h3>
+              <p class="text-gray-300 mb-4">
+                A web application designed to help users organize their earnings
+                and taxes, with features to search through past income records
+                and generate summarized reports for easy review.
+              </p>
+
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Django</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Python</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >SQLite</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >HTML</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >CSS</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Bootstrap</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+            <img
+              src="media/2048.png"
+              alt="Project screenshot"
+              class="w-full md:w-1/2 rounded-lg shadow-lg max-h-72 object-cover"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            />
+
+            <div class="w-full md:w-1/2">
+              <h3 class="text-2xl font-semibold mb-2">2048</h3>
+              <p class="text-gray-300 mb-4">
+                A command-line version of the classic 2048 game, where players
+                combine numbered tiles by sliding them in four directions to
+                reach the 2048 tile. Built using the Model-View-Controller (MVC)
+                design pattern to separate game logic, user input, and display,
+                ensuring clean and maintainable code.
+              </p>
+
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Java</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col md:flex-row items-center gap-8">
+            <img
+              src="media/FishFrenzy.png"
+              alt="Project screenshot"
+              class="w-full md:w-1/2 rounded-lg shadow-lg max-h-72 object-cover"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            />
+
+            <div class="w-full md:w-1/2">
+              <h3 class="text-2xl font-semibold mb-2">Fish Frenzy</h3>
+              <p class="text-gray-300 mb-4">
+                A single-player game where players raise a pet shark by hunting,
+                purchasing food from an in-game shop, and completing battle pass
+                challenges. Built using the MVC II design pattern to ensure
+                modular and maintainable code structure.
+              </p>
+
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Unity</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >C#</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+            <img
+              src="media/PollApp.png"
+              alt="Project screenshot"
+              class="w-full md:w-1/2 rounded-lg shadow-lg max-h-72 object-cover"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            />
+
+            <div class="w-full md:w-1/2">
+              <h3 class="text-2xl font-semibold mb-2">Poll App</h3>
+              <p class="text-gray-300 mb-4">
+                A full-stack web application that enables users to create custom
+                polls, cast votes, and view real-time results in an interactive
+                interface. Designed with user experience in mind.
+              </p>
+
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Django</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Python</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >React</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >SQLite</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >HTML</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >CSS</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >JavaScript</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col md:flex-row items-center gap-8">
+            <img
+              src="media/Scheduler.png"
+              alt="Project screenshot"
+              class="w-full md:w-1/2 rounded-lg shadow-lg max-h-72 object-cover"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            />
+
+            <div class="w-full md:w-1/2">
+              <h3 class="text-2xl font-semibold mb-2">Scheduler</h3>
+              <p class="text-gray-300 mb-4">
+                An intuitive task manager that lets users create daily to-do
+                lists with customizable deadlines. It features smart task
+                rollover, allowing users to easily move unfinished tasks to
+                another day, ensuring nothing falls through the cracks.
+              </p>
+
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >React</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >HTML</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >CSS</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >Material UI</span
+                >
+                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm"
+                  >JSX</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="academics"
+        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 md:mt-0 py-20"
+        data-aos="fade-up"
+      >
+        <h2 class="text-2xl text-white font-bold mb-8 text-center">Courses</h2>
+        <div class="space-y-6">
+          <details class="border border-gray-300 rounded p-4">
+            <summary class="text-xl font-semibold cursor-pointer text-center">
+              Software Engineering Courses
+            </summary>
+            <div class="grid md:grid-cols-2 gap-4 mt-4">
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Software Design IV - Capstone Design Project
+                  </h3>
+                  <span class="text-lg font-medium">??</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 4G06 A/B</p>
+                <p class="text-base mt-2">
+                  Student teams prepare the requirements, design, documentation,
+                  and implementation of a software system taking economic,
+                  health, safety, legal, marketing factors into account.
+                  Students must demonstrate a working system and convincing test
+                  results. Software project management.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Computer Networks and Security
+                  </h3>
+                  <span class="text-lg font-medium">??</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 4C03</p>
+                <p class="text-base mt-2">
+                  Physical networks, TCP/IP protocols, switching methods,
+                  network layering and components, network services. Information
+                  security, computer and network security threats, defense
+                  mechanisms, encryption.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Introduction to Machine Learning
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">COMPSCI 4ML3</p>
+                <p class="text-base mt-2">
+                  Regression, Classification and Decision Theory, Bias-Variance
+                  Trade-off, Linear Models, Kernel Methods, Probabilistic
+                  Models, Neural Networks, Model Aggregation, Unsupervised
+                  Learning.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Operating Systems</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 3SH3</p>
+                <p class="text-base mt-2">
+                  Processes and threads, synchronization and communication;
+                  scheduling, memory management; file systems; resource
+                  protection; structure of operating systems.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Software Testing</h3>
+                  <span class="text-lg font-medium">A-</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 3S03</p>
+                <p class="text-base mt-2">
+                  Measurement fundamentals, software measures and metrics, cost
+                  and effort estimation, testing strategy, testing plan, testing
+                  documentation, slicing and debugging, test coverage,
+                  functional testing techniques, system testing techniques,
+                  automated testing, maintenance fundamentals, regression
+                  testing.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Databases</h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 3DB3</p>
+                <p class="text-base mt-2">
+                  Data modeling, integrity constraints, principles and design of
+                  relational databases, relational algebra, SQL, query
+                  processing, transactions, concurrency control, recovery,
+                  security and data storage.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Data Structures and Algorithms
+                  </h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 2C03</p>
+                <p class="text-base mt-2">
+                  Basic data structures: stacks, queues, hash tables, and binary
+                  trees; searching and sorting; graph representations and
+                  algorithms, including minimum spanning trees, traversals,
+                  shortest paths; introduction to algorithmic design strategies;
+                  correctness and performance analysis.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Software Design II - Concurrent System Design
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">FWRENG 3BB4</p>
+                <p class="text-base mt-2">
+                  Processes, threads, concurrency; synchronization mechanisms,
+                  resource management and sharing; objects and concurrency;
+                  design, architecture and testing of concurrent systems.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Computer Architecture</h3>
+                  <span class="text-lg font-medium">B</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 2GA3</p>
+                <p class="text-base mt-2">
+                  Instruction-set architecture, computer arithmetic, datapath
+                  and control, pipelining, memory hierarchies, I/O systems,
+                  multiprocessor systems, measures of performance.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Software Design III - Large System Design
+                  </h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 3A04</p>
+                <p class="text-base mt-2">
+                  Sustainable architectures; design for change and expansion;
+                  software architecture design space; object oriented analysis
+                  and design; architectural styles; methodology of making
+                  architecture decisions; project organization.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Human Computer Interfaces</h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 4HC3</p>
+                <p class="text-base mt-2">
+                  Design of user interfaces. Principles of good interface
+                  design. Human input. Displaying complex data using graphics
+                  and virtual reality. Modes and mode awareness problem. Health
+                  issues, information overload. Special purpose graphics
+                  hardware. Interface design tools; on-line help systems.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Scientific Computation</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 4X03</p>
+                <p class="text-base mt-2">
+                  Computer arithmetic and roundoff error analysis.
+                  Interpolation, integration, solving systems of linear and
+                  nonlinear equations. Eigenvalues and singular value
+                  decomposition. Numerical methods for ordinary differential
+                  equations.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Software Engineering Practice and Experience: Software
+                    Project Management
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 3XA3</p>
+                <p class="text-base mt-2">
+                  Open-ended software development emphasizing concurrent system
+                  design; measurement, inspection, software metrics, software
+                  project management, refactoring; testing methods.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Software Requirements and Security Considerations
+                  </h3>
+                  <span class="text-lg font-medium">A-</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 3RA3</p>
+                <p class="text-base mt-2">
+                  Software requirements gathering. Critical systems requirements
+                  gathering. Security requirements. Traceability of
+                  requirements. Verification, validation, and documentation
+                  techniques. Software requirements quality attributes. Security
+                  policies. Measures for data confidentiality. Design principles
+                  that enhance security. Access control mechanisms.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Software Design I - Introduction to Software Development
+                  </h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 2AA4</p>
+                <p class="text-base mt-2">
+                  Software life cycle, quality attributes, requirements
+                  documentation, specifying behavior; classes and objects,
+                  interface specification; creational, structural, and
+                  behavioral software design patterns; implementation in code,
+                  reviews, testing and verification.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Software Engineering Practice and Experience: Binding Theory
+                    to Practice
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 2XB3</p>
+                <p class="text-base mt-2">
+                  Open-ended design of computational solutions to practical
+                  problems that involve both theoretical (algorithmic) analysis
+                  and implementation; solving computational problems through an
+                  experiential approach; revision and version control.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Software Engineering Practice and Experience: Software
+                    Development Skills
+                  </h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 2XA3</p>
+                <p class="text-base mt-2">
+                  Unix and shell programming, makefiles, version control;
+                  assembly basics, translating high-level language into
+                  assembly, parameter passing, arrays, recursion; compiling,
+                  debugging, profiling, and software optimizations.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Principles of Programming</h3>
+                  <span class="text-lg font-medium">A-</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 2S03</p>
+                <p class="text-base mt-2">
+                  Fundamental concepts of programming: expressions, statements,
+                  procedures, control structures, iteration, recursion,
+                  exceptions; precise memory model of traditional imperative
+                  programming languages; basic data structures: records, arrays,
+                  dynamic structures; use of libraries.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Digital Systems and Interfacing
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 2DA4</p>
+                <p class="text-base mt-2">
+                  Memory, binary arithmetic, hierarchical design.
+                  Hardware/software co-design and application-specific
+                  processors. Interfacing to I/O devices.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Real-Time Systems and Control Applications
+                  </h3>
+                  <span class="text-lg font-medium">A-</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 4AA4</p>
+                <p class="text-base mt-2">
+                  Hard and soft real-time systems. Safety classification.
+                  Fail-safe design, hazard analysis. Discrete event systems.
+                  Modes. Requirements and design specifications. Tasks and
+                  scheduling. Clock synchronization. Data acquisition.
+                  Applications in real-time control.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Dynamic Systems and Control</h3>
+                  <span class="text-lg font-medium">A-</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 3DX4</p>
+                <p class="text-base mt-2">
+                  Modelling of dynamic continuous physical phenomena in both
+                  continuous and discrete time. Control theory, stability
+                  analysis and feedback controller design. Application of
+                  computer control to continuous processes. System
+                  identification.
+                </p>
+              </div>
+
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Signals and Systems</h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 3MX3</p>
+                <p class="text-base mt-2">
+                  Linear systems, signals, filters; time and frequency domains;
+                  single input-single output systems; discrete and continuous
+                  time; sampling theorem; Fourier series; Fourier, Laplace, and
+                  z transforms; stability.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Discrete Mathematics and Applications II
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 2FA3</p>
+                <p class="text-base mt-2">
+                  Predicate logic and formal proofs, grammars and automata,
+                  modular arithmetic, and their applications to computing.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Discrete Mathematics with Applications I
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">SFWRENG 2DM3</p>
+                <p class="text-base mt-2">
+                  Functions, relations and sets; the language of predicate
+                  logic, propositional logic; proof techniques, counting
+                  principles; induction and recursion, discrete probabilities,
+                  graphs, and their application to computing.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Engineering Computation</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">ENGINEER 1D04</p>
+                <p class="text-base mt-2">
+                  Development and analysis of simple algorithms. Implementation
+                  of algorithms in computer programming language. Design and
+                  testing of computer programs.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Ethics, Equity and Law in Engineering
+                  </h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">ENGINEER 4A03</p>
+                <p class="text-base mt-2">
+                  General introduction to the ethical, equitable and legal
+                  aspects of engineering practice. Topics include the
+                  engineering act and code of ethics, employment equity, legal
+                  duties and liabilities of the professional engineer,
+                  contracts, and the tort of negligence.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Engineering Profession and Practice
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">ENGINEER 1P03</p>
+                <p class="text-base mt-2">
+                  Introduction to professional engineering including ethics,
+                  health and safety, roles and responsibilities to society,
+                  sustainability, engineering communication; design skills; team
+                  design projects.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Engineering Design and Graphics
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">ENGINEER 1C03</p>
+                <p class="text-base mt-2">
+                  Graphical visualization and communication; technical
+                  sketching, 2D and 3D computer-aided design; use of solid
+                  modelling software.
+                </p>
+              </div>
+            </div>
+          </details>
+          <details class="border border-gray-300 rounded p-4">
+            <summary class="text-xl font-semibold cursor-pointer text-center">
+              Commerce/Management Courses
+            </summary>
+            <div class="grid md:grid-cols-2 gap-4 mt-4">
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Business Policy: Strategic Management
+                  </h3>
+                  <span class="text-lg font-medium">??</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 4PA3</p>
+                <p class="text-base mt-2">
+                  As the capstone to the program, this case course is designed
+                  to unify the student’s learning experience by exploring the
+                  formulation and implementation of corporate strategy.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Engineering & Management Capstone
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">ENGNMGT 5B03</p>
+                <p class="text-base mt-2">
+                  Capstone course: Students work in multidisciplinary teams to
+                  solve an integrated engineering and business problem in an
+                  organization. Team, project and client management skills are
+                  developed.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Managerial Finance</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 3FA3</p>
+                <p class="text-base mt-2">
+                  This course examines various aspects of the financial
+                  management of the firm including the sources and methods of
+                  financing, capital structure, dividend policy, leasing,
+                  mergers and acquisitions, working capital management, effects
+                  of taxation on financial decisions and international aspects
+                  of finance.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Managerial Accounting I</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 2AB3</p>
+                <p class="text-base mt-2">
+                  An introduction to concepts underlying the use of cost
+                  accounting information for managerial planning and control and
+                  for inventory valuation. The nature and analysis of costs and
+                  the usefulness and limitations of accounting data for
+                  decision-making, including ethical considerations, will be
+                  discussed.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Human Resource Management and Labour Relations
+                  </h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 2BC3</p>
+                <p class="text-base mt-2">
+                  This course focuses on human resource management and labour
+                  relations issues and practices from a general management
+                  education perspective.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Operations Modelling and Analysis
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 4QA3</p>
+                <p class="text-base mt-2">
+                  A course that looks at productions and operations management
+                  as practiced in engineering and manufacturing industries and
+                  the services sector.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Applied Marketing Management
+                  </h3>
+                  <span class="text-lg font-medium">B+</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 3MC3</p>
+                <p class="text-base mt-2">
+                  Builds upon material in COMMERCE 2MA3 but is more applied in
+                  nature and covers the 4 P’s in greater depth. It also has a
+                  heavier industrial and service sector component, and relies
+                  more on practical, real world cases. A major field project
+                  (student teams working with companies) is a critical part of
+                  the course.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Personal Financial Management
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 4FL3</p>
+                <p class="text-base mt-2">
+                  The course covers various topics that are relevant to the
+                  financial decision making of individuals. These decisions
+                  include investment, retirement planning, debt and credit
+                  management, renting vs. buying a home, insurance and risk
+                  management and personal income tax planning and strategies.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Introductory Macroeconomics</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">ECON 1BB3</p>
+                <p class="text-base mt-2">
+                  An introduction to the method and theory of macroeconomics,
+                  and their application to the analysis of contemporary economic
+                  problems.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Communication Skills</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">ENGNMGT 2AA2</p>
+                <p class="text-base mt-2">
+                  Writing skills including formal reports; speaking, listening
+                  and presentation skills, speeches, technical presentations and
+                  electronic communication technology.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Database Design Management and Applications
+                  </h3>
+                  <span class="text-lg font-medium">??</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 3KD3</p>
+                <p class="text-base mt-2">
+                  This course is designed to introduce the basic concepts of
+                  database design, implementation and management. Students will
+                  gain hands on experience through assignments and a team
+                  project.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Innovation Driven Project Development and Management
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">ENGNMGT 4A03</p>
+                <p class="text-base mt-2">
+                  What is innovation and how is it managed? Team-based
+                  creativity skills will be developed with a focus on delivering
+                  innovation. Participants develop teamwork skills while using
+                  project management tools to develop a project.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Introduction to Finance</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 2FA3</p>
+                <p class="text-base mt-2">
+                  This course introduces the main instruments and institutions
+                  in the Canadian financial system. The basic concepts and
+                  models of modern financial theory are introduced through
+                  lectures and ‘hands-on’ problem solving. Topics include: the
+                  time value of money, capital budgeting, the trade-off between
+                  risk and return and security valuation.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Organizational Behaviour</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 1BA3</p>
+                <p class="text-base mt-2">
+                  The central objective of this course is to develop an
+                  understanding of human behaviour in organizations with a view
+                  toward effective management of such behaviour.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Introduction to Marketing</h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 2MA3</p>
+                <p class="text-base mt-2">
+                  This course introduces the conceptual underpinnings and
+                  operational facets of marketing with a primarily consumer (as
+                  opposed to industrial) focus.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Introductory Microeconomics</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">ECON 1B03</p>
+                <p class="text-base mt-2">
+                  An introduction to the method and theory of microeconomics,
+                  and their application to the analysis of contemporary economic
+                  problems.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Introductory Financial Accounting
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">COMMERCE 1AA3</p>
+                <p class="text-base mt-2">
+                  This is an introduction to the basic principles and practices
+                  of financial accounting, which includes an examination of
+                  income measurement and asset and liability valuation, to
+                  provide an understanding of financial accounting information
+                  and the ethics of financial reporting.
+                </p>
+              </div>
+            </div>
+          </details>
+          <details class="border border-gray-300 rounded p-4">
+            <summary class="text-xl font-semibold cursor-pointer text-center">
+              Science/Math Courses
+            </summary>
+            <div class="grid md:grid-cols-2 gap-4 mt-4">
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Engineering Mathematics III</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">MATH 2Z03</p>
+                <p class="text-base mt-2">
+                  Ordinary differential equations, Laplace transforms,
+                  introduction to partial differential equations, applications.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Probability and Statistics for Engineering
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">STATS 3Y03</p>
+                <p class="text-base mt-2">
+                  Introduction to probability, data analysis, statistical
+                  inference, regression, correlation and analysis of variance.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Structure and Properties of Materials
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">MATLS 1M03</p>
+                <p class="text-base mt-2">
+                  An introduction to the structure of both crystalline and
+                  amorphous solids; the physical and chemical basis for
+                  properties exhibited by materials; an overview of material
+                  properties including mechanical, electrical, magnetic and
+                  thermal behaviour.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Waves, Electricity and Magnetic Fields
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">PHYSICS 1E03</p>
+                <p class="text-base mt-2">
+                  A course for engineering students. Oscillations and waves,
+                  interference; electrostatics, electric potential, circuit
+                  elements; magnetic fields.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Engineering Mathematics II-B
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">MATH 1ZC3</p>
+                <p class="text-base mt-2">
+                  Vector spaces given by solutions to linear systems. Linear
+                  independence, dimension. Determinants. Eigenvalues,
+                  eigenvectors and diagonalisation. Complex numbers.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Engineering Mathematics II-A
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">MATH 1ZB3</p>
+                <p class="text-base mt-2">
+                  Techniques of integration, applications of definite integrals,
+                  differential equations, polar coordinates, parametrized
+                  curves. Sequences, infinite series, power series. Partial
+                  derivatives.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    General Chemistry for Engineering I
+                  </h3>
+                  <span class="text-lg font-medium">A</span>
+                </div>
+                <p class="text-sm mt-1">CHEM 1E03</p>
+                <p class="text-base mt-2">
+                  An introduction to chemical principles for Engineering
+                  students, including reactivity, bonding, structure, energetics
+                  and electrochemistry.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Introductory Mechanics</h3>
+                  <span class="text-lg font-medium">A-</span>
+                </div>
+                <p class="text-sm mt-1">PHYSICS 1D03</p>
+                <p class="text-base mt-2">
+                  A course for engineering students. Principles of mechanics of
+                  particles and rigid bodies, including Newton’s Laws,
+                  rotational kinematics and dynamics, torque, energy, momentum,
+                  angular momentum, and simple harmonic motion.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Engineering Mathematics I</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">MATH 1ZA3</p>
+                <p class="text-base mt-2">
+                  Functions: limits, continuity, derivatives, optimization,
+                  curve sketching. Antiderivative, definite integral, techniques
+                  of integration, with applications.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">The Big Questions</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">ASTRON 2B03</p>
+                <p class="text-base mt-2">
+                  Ultimate questions in modern science are surveyed with
+                  emphasis on physical sciences: origin of space-time, elements
+                  and structure in the cosmos (stars, planets, galaxies).
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">Survey of Psychology</h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">PSYCH 1F03</p>
+                <p class="text-base mt-2">
+                  Students completing this course will have a good understanding
+                  of the methods, research questions and major areas of
+                  psychology.
+                </p>
+              </div>
+              <div
+                class="border border-gray-300 p-4 rounded-xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-lg font-bold">
+                    Introduction to Sustainability
+                  </h3>
+                  <span class="text-lg font-medium">A+</span>
+                </div>
+                <p class="text-sm mt-1">SUSTAIN 1S03</p>
+                <p class="text-base mt-2">
+                  An introduction to sustainability from an interdisciplinary
+                  perspective which examines the historical and societal lenses
+                  through which sustainability is viewed. Students will learn
+                  terminology, theories and concepts to effectively communicate
+                  across disciplines and on various topics of sustainability.
+                </p>
+              </div>
+            </div>
+          </details>
+        </div>
+      </section>
+      <section
+        id="awards"
+        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 py-20"
+      >
+        <h2 class="text-2xl text-white font-bold mb-8 text-center">
+          Awards & Certifications
+        </h2>
+        <div class="mx-auto max-w-2xl text-left">
+          <div class="mb-10" data-aos="fade-right" data-aos-duration="2000">
+            <h3 class="text-xl font-semibold text-gray-200 mb-4">2025</h3>
+            <ul class="space-y-4 border-l-2 border-gray-300 pl-4">
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4"></p>
+                <p class="text-gray-500 text-sm ml-4"></p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">Dean’s Honour List</p>
+                <p class="text-gray-500 text-sm ml-4">McMaster University</p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">
+                  Mykola Semeniuk Incourse Award
+                </p>
+                <p class="text-gray-500 text-sm ml-4">McMaster University</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-10" data-aos="fade-right" data-aos-duration="2000">
+            <h3 class="text-xl font-semibold text-gray-200 mb-4">2024</h3>
+            <ul class="space-y-4 border-l-2 border-gray-300 pl-4">
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">
+                  Employee of the Month (February)
+                </p>
+                <p class="text-gray-500 text-sm ml-4">
+                  Navblue, an Airbus Company
+                </p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">
+                  W.H. Fleming Incourse Award
+                </p>
+                <p class="text-gray-500 text-sm ml-4">McMaster University</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-10" data-aos="fade-right" data-aos-duration="2000">
+            <h3 class="text-xl font-semibold text-gray-200 mb-4">2023</h3>
+            <ul class="space-y-4 border-l-2 border-gray-300 pl-4">
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">
+                  Golden Key International Honour Society (Top 15% of class)
+                </p>
+                <p class="text-gray-500 text-sm ml-4">
+                  Golden Key International Honour Society
+                </p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">Dean’s Honour List</p>
+                <p class="text-gray-500 text-sm ml-4">McMaster University</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-10" data-aos="fade-right" data-aos-duration="2000">
+            <h3 class="text-xl font-semibold text-gray-200 mb-4">2022</h3>
+            <ul class="space-y-4 border-l-2 border-gray-300 pl-4">
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">
+                  Golden Key International Honour Society (Top 15% of class)
+                </p>
+                <p class="text-gray-500 text-sm ml-4">
+                  Golden Key International Honour Society
+                </p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">Dean’s Honour List</p>
+                <p class="text-gray-500 text-sm ml-4">McMaster University</p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">
+                  William Neil Hortum Incourse Award
+                </p>
+                <p class="text-gray-500 text-sm ml-4">McMaster University</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-10" data-aos="fade-right" data-aos-duration="2000">
+            <h3 class="text-xl font-semibold text-gray-200 mb-4">2021</h3>
+            <ul class="space-y-4 border-l-2 border-gray-300 pl-4">
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">
+                  Golden Key International Honour Society (Top 15% of class)
+                </p>
+                <p class="text-gray-500 text-sm ml-4">
+                  Golden Key International Honour Society
+                </p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">Dean’s Honour List</p>
+                <p class="text-gray-500 text-sm ml-4">McMaster University</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-10" data-aos="fade-right" data-aos-duration="2000">
+            <h3 class="text-xl font-semibold text-gray-200 mb-4">2020</h3>
+            <ul class="space-y-4 border-l-2 border-gray-300 pl-4">
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">
+                  Golden Key International Honour Society (Top 15% of class)
+                </p>
+                <p class="text-gray-500 text-sm ml-4">
+                  Golden Key International Honour Society
+                </p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">Dean’s Honour List</p>
+                <p class="text-gray-500 text-sm ml-4">McMaster University</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-10" data-aos="fade-right" data-aos-duration="2000">
+            <h3 class="text-xl font-semibold text-gray-200 mb-4">2019</h3>
+            <ul class="space-y-4 border-l-2 border-gray-300 pl-4">
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">President's Award</p>
+                <p class="text-gray-500 text-sm ml-4">McMaster University</p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">
+                  The Award for Academic Excellence
+                </p>
+                <p class="text-gray-500 text-sm ml-4">Cardinal Newman</p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">
+                  The Millenium Award
+                </p>
+                <p class="text-gray-500 text-sm ml-4">Cardinal Newman</p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">Mathematics Award</p>
+                <p class="text-gray-500 text-sm ml-4">Cardinal Newman</p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">Physics Award</p>
+                <p class="text-gray-500 text-sm ml-4">Cardinal Newman</p>
+              </li>
+              <li class="relative">
+                <div
+                  class="absolute -left-2 w-4 h-4 bg-red-600 rounded-full border-2 border-white"
+                ></div>
+                <p class="text-gray-400 font-medium ml-4">Ontario Scholar</p>
+                <p class="text-gray-500 text-sm ml-4">Cardinal Newman</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="interests"></section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Nathan Uy. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

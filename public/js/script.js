@@ -1,0 +1,48 @@
+document.addEventListener("DOMContentLoaded", () => {
+  //workaround to fix the issue on mobile of not centered content.
+  //opening an accordion and closing it fixes the spacing
+  window.addEventListener("load", () => {
+    const details = document.querySelectorAll("details");
+    details.forEach((d) => {
+      if (!d.open) {
+        d.open = true;
+        requestAnimationFrame(() => {
+          d.open = false;
+        });
+      }
+    });
+  });
+
+  const accordions = document.querySelectorAll("details");
+
+  accordions.forEach((accordion) => {
+    accordion.addEventListener("toggle", () => {
+      if (accordion.open) {
+        accordions.forEach((otherAccordion) => {
+          if (otherAccordion !== accordion) {
+            otherAccordion.open = false;
+          }
+        });
+      }
+      setTimeout(() => {
+        AOS.refresh();
+      }, 100);
+    });
+  });
+
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const menuLinks = document.querySelectorAll(".menu-link");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.remove("hidden");
+    document.body.classList.add("overflow-hidden");
+  });
+
+  menuLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      mobileMenu.classList.add("hidden");
+      document.body.classList.remove("overflow-hidden");
+    });
+  });
+});
