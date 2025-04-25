@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale=1, user-scalable=no"" />
     <title>Nathan Uy</title>
     <link rel="stylesheet" href="public/css/style.css" />
     <link
@@ -13,10 +14,11 @@
     <style>
       html {
         scroll-behavior: smooth;
+        overflow-x: hidden;
       }
     </style>
   </head>
-  <body class="bg-black text-white overflow-x-hidden">
+  <body class="bg-black text-white">
     <header class="fixed top-0 w-full bg-black z-50">
       <div class="flex justify-between items-center p-6 m-1">
         <div class="text-xl font-bold sm:block hidden">Nathan Uy</div>
@@ -49,7 +51,7 @@
           <a href="#about" class="hover:underline cursor-pointer menu-link"
             >About</a
           >
-          <a href="#experience" class="hover:underline cursor-pointer"
+          <a href="#experience" class="hover:underline cursor-pointer menu-link"
             >Experience</a
           >
           <a href="#projects" class="hover:underline cursor-pointer menu-link"
@@ -70,10 +72,10 @@
         class="h-0.5 w-full bg-gradient-to-r from-white via-black to-white sm:block hidden"
       ></div>
     </header>
-    <main class="items-center px-10 max-w-7xl mx-auto">
+    <main class="items-center px-10 max-w-7xl mx-auto pt-8 md:pt-0">
       <section
         id="about"
-        class="min-h-screen flex flex-col md:flex-row items-center justify-center bg-black text-white py-20"
+        class="min-h-screen flex flex-col md:flex-row items-center justify-center bg-black text-white py-20 scroll-mt-16"
         data-aos="fade-up"
       >
         <div
@@ -121,7 +123,7 @@
       </section>
       <section
         id="experience"
-        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 py-20"
+        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 py-20 scroll-mt-16"
       >
         <h2 class="text-2xl text-white font-bold mb-8 text-center">
           Work Experience
@@ -260,7 +262,7 @@
       </section>
       <section
         id="projects"
-        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 py-20"
+        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 py-20 scroll-mt-16"
       >
         <h2 class="text-2xl text-white font-bold mb-8 text-center">Projects</h2>
 
@@ -523,7 +525,7 @@
       </section>
       <section
         id="academics"
-        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 md:mt-0 py-20"
+        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 md:mt-0 py-20 scroll-mt-16"
         data-aos="fade-up"
       >
         <h2 class="text-2xl text-white font-bold mb-8 text-center">Courses</h2>
@@ -1592,7 +1594,7 @@
       </section>
       <section
         id="awards"
-        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 py-20"
+        class="min-h-screen flex flex-col items-center justify-center bg-black text-white mt-4 py-20 scroll-mt-16"
       >
         <h2 class="text-2xl text-white font-bold mb-8 text-center">
           Awards & Certifications

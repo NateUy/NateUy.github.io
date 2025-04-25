@@ -1,18 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  //workaround to fix the issue on mobile of not centered content.
-  //opening an accordion and closing it fixes the spacing
-  window.addEventListener("load", () => {
-    const details = document.querySelectorAll("details");
-    details.forEach((d) => {
-      if (!d.open) {
-        d.open = true;
-        requestAnimationFrame(() => {
-          d.open = false;
-        });
-      }
-    });
-  });
-
   const accordions = document.querySelectorAll("details");
 
   accordions.forEach((accordion) => {
